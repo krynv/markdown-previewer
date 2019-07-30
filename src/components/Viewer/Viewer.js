@@ -1,7 +1,8 @@
 import React from 'react';
 import marked from 'marked';
 import './Viewer.css';
-import hljs from 'highlightjs';
+import hljs from 'highlight.js';
+// import '../../../node_modules/highlight.js/styles/github.css';
 
 var renderer = new marked.Renderer();
 
