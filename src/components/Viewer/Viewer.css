@@ -1,0 +1,6 @@
+.viewer {
+    flex-grow: 1;
+    border: 1px solid;
+    overflow: auto;
+    height: 100px;
+}
