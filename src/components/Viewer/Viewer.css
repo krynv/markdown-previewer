@@ -1,14 +1,8 @@
 .viewer {
     border: 0.2px solid;
+    border-color: rgb(169, 169, 169);
     width: 100%;
 }
-
-
-
-
-
-
-
 
 
 code {
