@@ -1,11 +1,14 @@
 .editor {
     height: 100%;
     width: 95%;
+    padding-right: 10px;
 }
 
-.textBox {
-    width: 95%;
-    height: 600px;
+.textArea {
+    width: 100%;
+    height: 100%;
     resize: none;
+    padding: 0;
+    border: 0.2;
 }
 

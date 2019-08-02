@@ -1,8 +1,15 @@
 .viewer {
-    border: 1px solid;
-    overflow: auto;
-    width: 95%;
+    border: 0.2px solid;
+    width: 100%;
 }
+
+
+
+
+
+
+
+
 
 code {
   background-color: #ffe5e5;

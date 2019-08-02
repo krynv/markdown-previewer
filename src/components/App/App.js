@@ -19,7 +19,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="appContainer">
         <h1>Markdown Previewer</h1>
 
         <div className="mainContainer">
