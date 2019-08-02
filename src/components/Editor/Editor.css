@@ -1,11 +1,11 @@
 .editor {
-    flex-grow: 1;
     height: 100%;
+    width: 95%;
 }
 
 .textBox {
     width: 95%;
-    resize: vertical;
-    overflow: hidden;
+    height: 600px;
+    resize: none;
 }
 
