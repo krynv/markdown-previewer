@@ -2,6 +2,7 @@ import React from 'react';
 import marked from 'marked';
 import './Viewer.css';
 import hljs from 'highlight.js';
+import ReactMarkdown from 'react-markdown';
 // import '../../../node_modules/highlight.js/styles/github.css';
 
 var renderer = new marked.Renderer();
@@ -22,7 +23,7 @@ class Viewer extends React.Component {
     render() {
         return (
             <div className="viewer">
-                <div dangerouslySetInnerHTML={{ __html: marked(this.props.markdown) }} />
+                <ReactMarkdown source={marked(this.props.markdown)} escapeHtml={false} />
             </div>
         );
     }
