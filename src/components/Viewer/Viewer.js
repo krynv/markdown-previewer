@@ -16,6 +16,7 @@ marked.setOptions({
     highlight: (code) => {
         return hljs.highlightAuto(code).value;
     },
+    gfm: true,
     breaks: true
 });
 
