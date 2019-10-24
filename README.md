@@ -4,7 +4,7 @@ My adaptation of a simple markdown previewer. Developed using React, Highlight.j
 
 ## Demo
 
-![Demo](markdown-previewer.gif)
+https://markdown-previewer.flix.industries/
 
 ## Run application
 
